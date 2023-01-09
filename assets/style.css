@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #4d4d4d;
+	font-family: "Figtree", sans-serif;
+	background: #affaff;
+	background: -moz-linear-gradient(317deg, #affaff 0%, #80da93 100%);
+	background: -webkit-linear-gradient(317deg, #affaff 0%, #80da93 100%);
+	background: linear-gradient(317deg, #affaff 0%, #80da93 100%);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
