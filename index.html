@@ -58,25 +58,23 @@
 				<canvas id="game-canvas" width="600" height="630"></canvas>
 				<div class="thetimer"></div>
 			</div>
+			<!-- End of maze game section -->
 
 			<!-- The Username Modal -->
 			<div id="userModal" class="modal">
 				<div class="mod-container">
-					<div class="mod-header">
-						<span class="closeMod"></span>
-						<h2 class="mod-title"></h2>
-					</div>
-					<div class="mod-footer">
-						<h2 id="playAgain">Want to play again?</h2>
-					</div>
+					<h2 class="user-mod-title">Enter player's name:</h2>
+					<input type="text" name="usernameText" id="usernameTextBx" />
+					<button>Play game</button>
 				</div>
 			</div>
+			<!-- End of username Modal -->
 
 			<!-- The Play Again Modal -->
 			<div id="userModal" class="modal">
 				<div class="mod-container">
 					<div class="mod-header">
-						<span class="closeMod"></span>
+						<span class="closeMod">&times;</span>
 						<h2 class="mod-title"></h2>
 					</div>
 					<div class="mod-footer">
@@ -84,6 +82,10 @@
 					</div>
 				</div>
 			</div>
+			<!-- End of play again modal-->
 		</main>
+
+		<!-- Connecting to JavaScript -->
+		<script src="assets/script.js"></script>
 	</body>
 </html>
