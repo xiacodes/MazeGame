@@ -1,3 +1,18 @@
+.mazegame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #game-canvas {
+	background-color: antiquewhite;
 	background-image: url(images/MapOfMaze-600x630.png);
+	text-align: center;
+	margin: auto 0;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
 }
