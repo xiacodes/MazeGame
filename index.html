@@ -40,7 +40,7 @@
 				</ul>
 				<div class="user center">
 					<span class="material-icons"> account_circle </span>
-					<p id="username">Hello, [Username]</p>
+					<p>Hello, <span id="username">[Username]</span></p>
 				</div>
 			</nav>
 		</header>
@@ -48,14 +48,41 @@
 		<main>
 			<h1 class="game-title center">Maze Game</h1>
 
+			<!-- The maze game section -->
 			<div id="mazegame">
 				<p class="shortDesc center">
 					<i>Woooah!</i> You have only<b>1 minute</b>to find your way out of
 					this maze! Good luck!
 				</p>
-				<div id="player-icon"></div>
 				<!-- The game canvas -->
 				<canvas id="game-canvas" width="600" height="630"></canvas>
+				<div class="thetimer"></div>
+			</div>
+
+			<!-- The Username Modal -->
+			<div id="userModal" class="modal">
+				<div class="mod-container">
+					<div class="mod-header">
+						<span class="closeMod"></span>
+						<h2 class="mod-title"></h2>
+					</div>
+					<div class="mod-footer">
+						<h2 id="playAgain">Want to play again?</h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- The Play Again Modal -->
+			<div id="userModal" class="modal">
+				<div class="mod-container">
+					<div class="mod-header">
+						<span class="closeMod"></span>
+						<h2 class="mod-title"></h2>
+					</div>
+					<div class="mod-footer">
+						<h2 id="playAgain">Want to play again?</h2>
+					</div>
+				</div>
 			</div>
 		</main>
 	</body>
