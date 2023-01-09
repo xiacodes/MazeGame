@@ -9,11 +9,7 @@ body {
 	color: #4d4d4d;
 	font-family: "Figtree", sans-serif;
 	background: #5fad70;
-	background: -moz-linear-gradient(
-		0deg,
-		rgba(95, 173, 112, 1) 0%,
-		rgba(175, 250, 255, 1) 56%
-	);
+	background: -moz-linear-gradient(0deg, rgba(95, 173, 112, 1) 0%, #affaff 56%);
 	background: -webkit-linear-gradient(
 		0deg,
 		rgba(95, 173, 112, 1) 0%,
@@ -43,7 +39,7 @@ header {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border-bottom: 1px solid #c4c4c4;
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 }
 .nav-bar {
@@ -64,7 +60,7 @@ header {
 	gap: 10px;
 }
 img {
-	width: 6%;
+	width: 40px;
 }
 .nav-menu {
 	display: flex;
@@ -79,7 +75,7 @@ img {
 	text-decoration: none;
 }
 .nav-title {
-	font-size: 2.3rem;
+	font-size: 160%;
 	font-family: "Abril Fatface", cursive;
 	font-weight: 700;
 	color: #4d4d4d;
@@ -91,11 +87,21 @@ img {
 	height: 100px;
 	color: #4d4d4d;
 }
-.nl-pink:hover {
-	color: #ffa7b9;
+.nl-green:hover {
+	color: #5fad70;
 }
 .nl-blue:hover {
-	color: #afbdff;
+	color: #87dae0;
 }
 
-MEDIA QUERIES 
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 1550px) {
+	.nav-title {
+		font-size: 140%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.nav-title {
+		font-size: 120%;
+	}
+}
