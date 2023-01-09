@@ -45,7 +45,8 @@ header {
 }
 .nav-bar {
 	max-height: 60px;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 24px;
@@ -65,7 +66,7 @@ img {
 }
 .nav-menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	gap: 30px;
 }
@@ -97,13 +98,18 @@ img {
 }
 
 /* MEDIA QUERIES  */
+@media only screen and (max-width: 1770px) {
+	.nav-title {
+		font-size: 120%;
+	}
+}
 @media only screen and (max-width: 1550px) {
 	.nav-title {
-		font-size: 140%;
+		font-size: 100%;
 	}
 }
 @media only screen and (max-width: 992px) {
 	.nav-title {
-		font-size: 120%;
+		font-size: 80%;
 	}
 }
