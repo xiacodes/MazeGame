@@ -57,6 +57,15 @@ header {
 	width: 40px;
 	margin-right: 10px;
 }
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+img {
+	width: 6%;
+}
 .nav-menu {
 	display: flex;
 	justify-content: space-between;
@@ -65,12 +74,12 @@ header {
 }
 .logo-space {
 	display: flex;
-	justify-content: center;
+	gap: 15px;
 	align-items: center;
+	text-decoration: none;
 }
 .nav-title {
 	font-size: 2.3rem;
-	text-decoration: none;
 	font-family: "Abril Fatface", cursive;
 	font-weight: 700;
 	color: #4d4d4d;
@@ -88,3 +97,5 @@ header {
 .nl-blue:hover {
 	color: #afbdff;
 }
+
+MEDIA QUERIES 
