@@ -22,8 +22,8 @@
 		<title>Maze Game | Olde Worlde Phunne</title>
 	</head>
 	<body>
-		<header>
-			<!-- Navigation Bar -->
+		<!-- <header>
+			 Navigation Bar 
 			<nav class="nav-bar">
 				<div>
 					<a href="index.html" class="logo-space"
@@ -50,27 +50,30 @@
 					<p>Hello <span id="username"></span>!</p>
 				</div>
 			</nav>
-		</header>
+		</header> -->
 
 		<main>
-			<h1 class="game-title center">Maze Game</h1>
+			<section>
+				<h1 class="game-title center">Maze Game</h1>
 
-			<!-- The maze game section -->
-			<div id="mazegame">
-				<p class="shortDesc center">
-					<i>Woooah!</i> You have only<b>1 minute</b>to find your way out of
-					this maze! Good luck!
-				</p>
-				<!-- The game canvas -->
-				<div class="move">
-					<canvas id="game-canvas" width="600" height="630"></canvas>
+				<!-- The maze game section -->
+				<div id="mazegame">
+					<p class="shortDesc center">
+						<i>Woooah!</i> You have only<b>1 minute</b>to find your way out of
+						this maze! Good luck!
+					</p>
+					<!-- The game canvas -->
+					<div class="move">
+						<canvas id="game-canvas" width="600" height="630"></canvas>
+					</div>
+					<div class="thetimer"></div>
 				</div>
-				<div class="thetimer"></div>
-			</div>
-			<!-- End of maze game section -->
+				<!-- End of maze game section -->
+			</section>
 
+			<!-- Modals -->
 			<!-- The Username Modal -->
-			<div id="userModal" class="modal">
+			<!-- <div id="userModal" class="modal">
 				<div class="mod-container">
 					<h2 class="user-mod-title">Enter player's name:</h2>
 					<input
@@ -78,12 +81,50 @@
 						name="usernameText"
 						id="usernameTextBx"
 						class="rounded"
-						maxlength="12"
+						maxlength="16"
 					/>
-					<button id="submit" class="rounded">Play game</button>
+					<button id="continue" class="rounded btn">continue</button>
+				</div>
+			</div> -->
+			<!-- End of username Modal -->
+
+			<!-- The Main Menu Modal -->
+			<!-- <div id="menuModal" class="modal">
+				<div class="mod-container">
+					<div class="logo-space">
+						<img src="assets/images/OWP-icon.png" alt="the company logo" />
+						<div>
+							<p class="menu-text">
+								<span id="menu-title">Olde Worlde Phunne</span> presents
+							</p>
+						</div>
+					</div>
+					<h2 class="game-title">- Maze Game -</h2>
+					<div class="center">
+						<button id="submit" class="rounded btn">play game</button>
+						<button id="controls" class="rounded btn">controls</button>
+					</div>
+				</div>
+			</div> -->
+			<!-- End of Main Menu Modal -->
+
+			<!-- The Controls Modal -->
+			<div id="controlsModal" class="modal">
+				<div class="mod-container">
+					<h2 class="game-title">- Maze Game -</h2>
+					<h3 class="controls-title">- Controls -</h3>
+					<div class="center">
+						<div class="controls-area">
+							<div class="box">
+								<span><img src="" alt="" /></span>
+								<p>/ W</p>
+							</div>
+						</div>
+						<div class="box2"></div>
+					</div>
 				</div>
 			</div>
-			<!-- End of username Modal -->
+			<!-- End of Controls Modal -->
 
 			<!-- The Play Again Modal -->
 			<!-- <div id="againModal" class="modal">

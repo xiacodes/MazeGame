@@ -1,3 +1,5 @@
+@import "root.css";
+/* Shared Stylings */
 .modal {
 	/* display: none; */
 	position: fixed;
@@ -11,13 +13,17 @@
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
+	/* background: linear-gradient(
+		0deg,
+		rgba(95, 173, 112, 1) 0%,
+		rgba(175, 250, 255, 1) 56%
+	); */
 }
-
 .mod-container {
 	position: relative;
 	background-color: #ffffffde;
 	margin: auto;
-	padding: 10px;
+	padding: 25px;
 	border-radius: 7.5px;
 	border: 1px solid #c4c4c4;
 	width: 30%;
@@ -30,6 +36,23 @@
 	gap: 20px;
 	justify-content: center;
 	align-items: center;
+}
+.rounded {
+	border-radius: 15px;
+	padding: 8px 10px;
+	text-align: center;
+	border: 2px solid #c4c4c4;
+	font-size: 1em;
+}
+.btn {
+	background-color: #94daa3;
+	font-weight: bold;
+	color: #383838;
+	width: 200px;
+}
+.btn:hover {
+	background-color: #5fad70;
+	cursor: pointer;
 }
 
 /* Some Animation for the modals */
@@ -45,30 +68,37 @@
 }
 
 /* The Username Modal  */
-.rounded {
-	border-radius: 15px;
-	padding: 8px 10px;
-	text-align: center;
-	border: 2px solid #c4c4c4;
-	font-size: 1em;
-}
-
 #usernameTextBx {
 	transition: 0.5s;
 	font-family: "Figtree";
+	padding: 8px 50px;
 }
-
 #usernameTextBx:focus {
 	outline: none !important;
 	border: 2px solid #87dae0;
 	background-color: rgb(231, 248, 255);
 }
 
-#submit {
-	background-color: #94daa3;
-	font-weight: bold;
+/* The Main Menu Modal  */
+img {
+	width: 70px;
 }
-#submit:hover {
-	background-color: #5fad70;
-	cursor: pointer;
+.logo-space {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	text-decoration: none;
+}
+#menu-title {
+	font-family: "Abril Fatface", cursive;
+	font-weight: 500;
+	color: #4d4d4d;
+	padding: 10px 0;
+}
+.menu-text {
+	font-size: 1.5rem;
+}
+.game-title {
+	font-size: 2.3rem;
 }
