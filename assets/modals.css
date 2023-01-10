@@ -112,11 +112,28 @@ img {
 	font-weight: bold;
 }
 .con-image {
-	width: 55px;
+	width: 45px;
 }
-.controls-box {
+.row-center {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	align-items: center;
+}
+.box {
 	flex-direction: column;
+	gap: 9px !important;
 }
-#l-arrow {
+.control-info {
+	font-size: 1.1rem;
+}
+
+#u-arrow {
 	transform: rotate(90deg);
+}
+#r-arrow {
+	transform: rotate(180deg);
+}
+#d-arrow {
+	transform: rotate(270deg);
 }
