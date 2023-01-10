@@ -102,3 +102,21 @@ img {
 .game-title {
 	font-size: 2.3rem;
 }
+
+/* The Main Menu Modal  */
+.controls-title {
+	font-size: 1.6rem;
+}
+.con-text {
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+.con-image {
+	width: 55px;
+}
+.controls-box {
+	flex-direction: column;
+}
+#l-arrow {
+	transform: rotate(90deg);
+}
