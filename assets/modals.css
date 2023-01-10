@@ -113,6 +113,12 @@ img {
 }
 
 /* The Controls Modal  */
+#controlsModal {
+	padding-top: 180px;
+}
+#controls-contain {
+	margin: 15px 0px 25px 0px;
+}
 .controls-title {
 	font-size: 1.6rem;
 }
@@ -123,14 +129,12 @@ img {
 .con-image {
 	width: 45px;
 }
-
 .con-container {
 	gap: 50px !important;
 }
 .control-info {
 	font-size: 1.1rem;
 }
-
 #u-arrow {
 	transform: rotate(90deg);
 }
