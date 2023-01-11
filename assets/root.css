@@ -31,8 +31,45 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
-	width: 70%;
+	grid-template-columns: 1fr 3fr 1fr;
+	width: 80%;
+}
+.wrapper {
+	background-color: #ffffffb9;
+	margin: auto;
+	padding: 25px;
+	border-radius: 7.5px;
+	border: 1px solid #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* Game Description */
+.desc-title {
+	font-size: 1.5rem;
+}
+.fa-user {
+	font-size: 2.7rem;
+}
+.playerInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+#timer-section {
+	gap: 20px;
+	margin-left: -18px;
+}
+.thetimer {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: monospace;
+	color: rgb(238, 116, 59);
 }
 
 /* MEDIA QUERIES  */

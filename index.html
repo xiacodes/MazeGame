@@ -33,8 +33,8 @@
 		<main>
 			<section class="main-screen">
 				<!-- The game description section -->
-				<div class="game-desc center column">
-					<h2 class="game-title center">- Maze Game -</h2>
+				<div class="wrapper">
+					<h4 class="desc-title center">- Maze Game -</h4>
 					<div class="playerInfo">
 						<i class="fa-solid fa-user"></i>
 						<p>Welcome [player name]!</p>
@@ -42,7 +42,7 @@
 					<p class="shortDesc">
 						<i>Woooah!</i> Welcome to the Maze Game! <br /><br />
 						Your goal is to navigate through the maze and reach the end under
-						<b>1 minute and 30 seconds</b>!<br /><br />
+						<b>1 minute and 30 seconds</b><br /><br />
 						Use the arrow keys or WASD to move you along the way. Good luck and
 						have fun!
 					</p>
@@ -58,8 +58,9 @@
 				<!-- End of maze game section -->
 
 				<!-- The timer section -->
-				<div class="timer-section">
-					<div class="thetimer"></div>
+				<div class="wrapper" id="timer-section">
+					<h4 class="desc-title center">Time Left:</h4>
+					<p class="thetimer" id="thetimer">01:30</p>
 				</div>
 				<!-- End of the timer section -->
 			</section>

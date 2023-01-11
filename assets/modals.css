@@ -28,14 +28,14 @@
 	border: 1px solid #ffffff;
 	width: 30%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	/* Animation */
-	animation-name: goUp;
-	animation-duration: 0.9s;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 	justify-content: center;
 	align-items: center;
+	/* Animation */
+	animation-name: goUp;
+	animation-duration: 0.9s;
 }
 .rounded {
 	border-radius: 15px;
