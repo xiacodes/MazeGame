@@ -63,6 +63,12 @@
 	gap: 5px;
 	align-items: center;
 }
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
 
 /* Some Animation for the modals */
 @keyframes goUp {
@@ -169,4 +175,5 @@ img {
 /* The Play Again Modals */
 #againModal {
 	background: none;
+	display: none;
 }

@@ -19,26 +19,34 @@
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet"
 		/>
-		<title>Maze Game | Olde Worlde hello Phunne</title>
+		<title>Maze Game | Olde Worlde Phunne</title>
 	</head>
 	<body>
 		<main>
-			<section>
-				<h1 class="game-title center">Maze Game</h1>
+			<section class="main-screen">
+				<!-- The game description section -->
+				<div class="game-desc center column">
+					<h1 class="game-title center">Maze Game</h1>
+					<p class="shortDesc">
+						<i>Woooah!</i> You have only <b>1 minute</b> to find your way out of
+						this maze! Good luck!
+					</p>
+				</div>
+				<!-- End of the game description section -->
 
 				<!-- The maze game section -->
 				<div id="mazegame">
-					<p class="shortDesc center">
-						<i>Woooah!</i> You have only<b>1 minute</b>to find your way out of
-						this maze! Good luck!
-					</p>
-					<!-- The game canvas -->
 					<div class="move">
 						<canvas id="game-canvas" width="600" height="630"></canvas>
 					</div>
-					<div class="thetimer"></div>
 				</div>
 				<!-- End of maze game section -->
+
+				<!-- The timer section -->
+				<div class="timer-section">
+					<div class="thetimer"></div>
+				</div>
+				<!-- End of the timer section -->
 			</section>
 
 			<!-- Modals -->
