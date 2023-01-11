@@ -63,7 +63,8 @@ body {
 }
 #timer-section {
 	gap: 20px;
-	margin-left: -18px;
+	/* margin-left: -18px; */
+	width: 100%;
 }
 .thetimer {
 	font-size: 40px;
