@@ -72,21 +72,26 @@
 			</section>
 
 			<!-- Modals -->
-			<!-- The Username Modal -->
-			<div id="userModal" class="modal">
+			<!-- The Player Modal -->
+			<div id="playerModal" class="modal">
 				<div class="mod-container">
-					<h2 class="user-mod-title">Enter player's name:</h2>
-					<input
-						type="text"
-						name="usernameText"
-						id="usernameTextBx"
-						class="rounded"
-						maxlength="16"
-					/>
-					<button id="continue" class="rounded btn">continue</button>
+					<h2>Enter player's name:</h2>
+					<div class="column textbox-con">
+						<input
+							type="text"
+							name="playerText"
+							id="playerTextBx"
+							class="rounded"
+							maxlength="12"
+						/>
+						<p class="textbox-info">
+							The player's name can only be 12 characters long
+						</p>
+					</div>
+					<button id="continue-player" class="rounded btn">continue</button>
 				</div>
 			</div>
-			<!-- End of username Modal -->
+			<!-- End of Player Modal -->
 
 			<!-- The Main Menu Modal -->
 			<div id="menuModal" class="modal">
@@ -185,19 +190,31 @@
 			</div>
 			<!-- End of Controls Modal -->
 
-			<!-- The Play Again Modal -->
-			<!-- <div id="againModal" class="modal">
+			<!-- The Play Again Modals -->
+			<!-- You Win Modal -->
+			<div id="againModal" class="modal">
 				<div class="mod-container">
-					<div class="mod-header">
-						<span class="closeMod">&times;</span>
-						<h2 class="mod-title"></h2>
-					</div>
-					<div class="mod-footer">
-						<h2 id="playAgain">Want to play again?</h2>
+					<h2 class="game-title">Well done! You win!</h2>
+					<div class="center">
+						<button id="play-again" class="rounded btn">play again</button>
+						<button id="main-menu-btn" class="rounded btn">main menu</button>
 					</div>
 				</div>
-			</div> -->
-			<!-- End of play again modal-->
+			</div>
+			<!-- End of you win modal-->
+
+			<!-- You Lose Modal -->
+			<div id="againModal" class="modal">
+				<div class="mod-container">
+					<h2 class="game-title">Oh no! You lost!</h2>
+					<div class="center">
+						<button id="play-again" class="rounded btn">play again</button>
+						<button id="main-menu-btn" class="rounded btn">main menu</button>
+					</div>
+				</div>
+			</div>
+			<!-- End of you win modal-->
+			<!-- End of the play again modals-->
 		</main>
 
 		<!-- Connecting to JavaScript -->
