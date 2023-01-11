@@ -173,7 +173,8 @@ img {
 }
 
 /* The Play Again Modals */
-#againModal {
+#yesModal,
+#noModal {
 	background: none;
 	display: none;
 }
