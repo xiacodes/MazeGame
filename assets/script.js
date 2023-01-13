@@ -10,8 +10,8 @@ var playerName;
 var continuePlayerBtn = document.querySelector("#continue-player");
 var playGameBtn = document.querySelector("#playgame");
 var controlsBtn = document.querySelector("#controls");
-var controlsMenuBtn = document.querySelectorAll("#controlsMenuBtn");
-var playAgainBtn = document.querySelectorAll(".pg-btn");
+var controlsMenuBtn = document.querySelector("#controlsMenuBtn");
+var playAgainBtn = document.querySelector(".pg-btn");
 
 function startPage() {
 	// Modals Section
@@ -33,18 +33,14 @@ function startPage() {
 
 	// Controls Modal
 	controlsBtn.addEventListener("click", function () {
+		menuModal.style.display = "none";
 		controlsModal.style.display = "block";
 	});
 
-	// controlMenuBtn.addEventListener("click", function () {
-	// 	controlsModal.style.display = "none";
-	// 	menuModal.style.display = "block";
-	// });
-
-	controlMenuBtn.onclick = function () {
+	controlsMenuBtn.addEventListener("click", function () {
 		controlsModal.style.display = "none";
 		menuModal.style.display = "block";
-	};
+	});
 }
 
 // Adding the player's name
