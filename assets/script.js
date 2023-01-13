@@ -23,24 +23,24 @@ function startPage() {
 		playerModal.style.display = "none";
 		menuModal.style.display = "block";
 		player = getName();
-		return player;
 	});
-
-	// Play Game
+	// Play game modal
 	playGameBtn.addEventListener("click", function () {
 		menuModal.style.display = "none";
 	});
-
 	// Controls Modal
 	controlsBtn.addEventListener("click", function () {
 		menuModal.style.display = "none";
 		controlsModal.style.display = "block";
 	});
-
 	controlsMenuBtn.addEventListener("click", function () {
 		controlsModal.style.display = "none";
 		menuModal.style.display = "block";
 	});
+
+	// Main Screen
+	document.querySelector("#playerName").innerText =
+		document.getElementById("playerTextBx").value;
 }
 
 // Adding the player's name
